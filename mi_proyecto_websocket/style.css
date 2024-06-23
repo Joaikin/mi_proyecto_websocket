@@ -1,0 +1,78 @@
+﻿/* Estilos generales */
+body {
+    font-family: sans-serif;
+    text-align: center;
+    background-color: #f0f0f0; /* Color de fondo suave */
+}
+
+h1 {
+    color: #333; /* Color de título oscuro */
+}
+
+#game-area {
+    display: flex; /* Usamos flexbox para organizar los elementos */
+    justify-content: center; /* Centramos horizontalmente */
+    align-items: center; /* Centramos verticalmente */
+    flex-direction: column; /* Apilamos los elementos verticalmente */
+    margin-top: 20px;
+}
+
+/* Estilos para los dados */
+.dice {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border: 1px solid #333;
+    margin: 10px;
+    display: flex; /* Usamos flexbox para centrar los puntos */
+    justify-content: center;
+    align-items: center;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    border-radius: 50%; /* Hacemos los puntos redondos */
+    margin: 3px;
+}
+
+/* Estilos para las fichas (puedes personalizarlos) */
+.chip {
+    width: 30px;
+    height: 30px;
+    background-color: red; /* Color inicial de las fichas */
+    border-radius: 50%;
+    margin: 5px;
+}
+
+/* Estilos para los botones (puedes personalizarlos) */
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Color verde */
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+}
+#dice-container, #chips-container, #current-player-display {
+    margin-bottom: 10px; /* Espacio entre elementos */
+}
+
+.dice {
+    display: inline-block; /* Mostrar dados en línea */
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    margin: 5px;
+    text-align: center;
+    line-height: 30px; /* Centrar texto verticalmente */
+}
+#name-input-area {
+    margin-bottom: 20px;
+}
+
+#player-name {
+    padding: 8px;
+    margin-right: 10px;
+}

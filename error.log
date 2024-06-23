@@ -1,0 +1,22 @@
+script.js:57 Error al cargar el JSON: TypeError: Failed to fetch
+    at script.js:45:1
+(anónimas) @ script.js:57
+Promise.catch (asíncrono)
+(anónimas) @ script.js:56
+d3.v7.min.js:2 
+        
+        
+       
+        
+       Uncaught (in promise) TypeError: Failed to fetch
+    at t.json (d3.v7.min.js:2:249891)
+    at script.js:13:4
+t.json @ d3.v7.min.js:2
+(anónimas) @ script.js:13
+Promise.then (asíncrono)
+(anónimas) @ script.js:13
+d3.v7.min.js:2 No se pudo cargar Recuperar: GET "file:///Users/joaikin/Sites/localhost/conceptualMap/homo_ludens_2.json".
+t.json @ d3.v7.min.js:2
+(anónimas) @ script.js:13
+script.js:45 No se pudo cargar Recuperar: GET "file:///Users/joaikin/Sites/localhost/conceptualMap/homo_ludens_2.json".
+(anónimas) @ script.js:45
